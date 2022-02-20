@@ -1,0 +1,161 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #45a9fe;
+}
+.head{
+
+	width: 100%;
+	height: 154vh;
+}
+.head .first-h2{
+	width: 80%;
+	padding: 10px 0 10px 0;
+	margin-top: 10px;
+	background: #9bff9a;
+}
+.head .second-h2{
+	width: 60%;
+	padding: 7px 0 7px 0;
+	margin-top: 10px;
+}
+.head .third-h2{
+	width: 75%;
+	padding: 5px 0 5px 0;
+	margin-top: 10px;
+}
+.body{
+	background: #ccccfe;
+	width: 95%;
+	height: 125vh;
+	margin: auto;
+	margin-top: 5px;
+	padding-top: 5px;
+
+} .body .body-h2{
+	width: 20%;
+	margin-bottom: 5px;
+	padding: 5px 0 5px 0;
+}
+span{
+
+}
+.first-span{
+	width: 300px;
+	margin-left: 200px;
+	padding: 10px;
+}
+.second-span{
+	
+}
+.wrapper{
+	width: 95%;
+	height: 107vh;
+	margin-top: 5px;
+	background: #9bff9a;
+	padding-top: 5px;
+}
+.wrapper .wrapper-h2{
+	width: 50%;
+	padding: 5px 0 5px 0;
+}
+.closer-first-h2{
+	position: absolute;
+	margin-left: 300px;
+	padding: 5px 60px 5px 60px;
+}
+.closer-second-h2{
+	position: absolute;
+	margin-left: 700px;
+	padding: 5px 60px 5px 60px;
+}
+.container1{
+	width: 95%;
+	height: 90vh;
+	background: #f0efff;
+} .container1 .container1-h2{
+	width: 50%;
+	padding: 5px 15px 5px 15px;
+	margin-top: 5px;
+}
+.header{
+	width: 95%;
+	height: 60px;
+	background: #feee99;
+	padding-top: 20px;
+
+	
+}
+.header .header-h2{
+	width: 52%;
+	padding: 5px 15px 5px 15px;
+}
+.navigation{
+	width: 95%;
+	height: 50px;
+	background:#eeccff;
+	padding-top: 8px;
+}
+.navigation .navigation-h2{
+	width: 50%;
+	padding: 5px 15px 5px 15px;
+	
+}
+.container2{
+	width: 95%;
+	height: 170px;
+	background: #bef;
+
+}
+.container2-content{
+	width: 95%;
+	height: 150px;
+	background: yellow;
+	margin-right: 100px;
+
+
+}
+.footer{
+	width: 95%;
+	height: 70px;
+	background:#eeffed;
+	padding-top: 5px;
+}
+.footer-h2{
+	width: 50%;
+	padding: 10px 0 10px 0;
+}
+.floating{
+	display: flex;
+}
+.container2-second-h2{
+	width: 220px;
+	padding: 20px 15px 20px 15px;
+	background: #eeeeee;
+	margin-left: 220px;
+
+}
+.container2-third-h2{
+    width: 220px;
+	margin-left: 50px;
+	padding: 20px 15px 20px 15px;
+	background: #eeeeee;
+}
+.container2-fourth-h2{
+   margin-top: 150px;
+}
+.bg-yellow{
+	background: yellow;
+}
+.text-center{
+	text-align: center;
+}
+.auto{
+	margin: auto;
+}
+
+
+
+
