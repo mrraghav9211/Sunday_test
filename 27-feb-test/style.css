@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.sec-first{
+	width: 100%;
+	height: 40vh;
+	display: flex;
+}
+.one{
+	background: #ee1c25;
+	width: 25%;
+}
+.two-four{
+	background: red;
+	width: 60%;
+}
+.three{
+	background: #ed008c;
+	width: 15%;
+}
+.two{
+	background: #fff200;
+	height: 20vh;
+}
+.four{
+	background: #009445;
+	height: 20vh;
+}
+h2{
+	text-align: center;
+	position: relative;
+	top: 50px;
+}
+.margin50px{
+	margin-top: 50px;
+}
+.sec-second{
+	width: 100%;
+	height: 40vh;
+	display: flex;
+}
+.first-sec{
+	width: 70%;
+	background: yellow;
+}
+.seven{
+	width: 30%;
+	background: #662d91;
+}
+.five-six{
+	display: flex;
+}
+.five{
+	background: #f7941e;
+	width: 70%;
+	height: 20vh;
+}
+.six{
+	background: #00aeef;
+	width: 30%;
+	height: 20vh;
+}
+.eight{
+	background: #c49a6c;
+	height: 20vh;
+}
+.
+/*.one{
+	display: inline-block;
+	background: red;
+	height: 200px;
+	width: 30%;
+	position: relative;
+	bottom: 100px;
+
+	
+}
+.two-four{
+	display: inline-block;
+	background: yellow;
+	height: 200px;
+	width: 49%;
+	padding-left: 10px;
+
+}
+.three{
+	display: inline-block;
+	background: blue;
+	height: 200px;
+	width: 20%;
+	position: relative;
+	bottom: 100px;
+}
+.two{
+	background: blueviolet;
+	height: 100px;
+}
+.four{
+	background: violet;
+	height: 100px;
+
+}
+}*/
