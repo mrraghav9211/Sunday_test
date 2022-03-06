@@ -258,4 +258,8 @@ button{
 	button{
 	margin-bottom: 7px;
 }
+	.container{
+	width: 95%;
+	margin: auto;
+}
 }
