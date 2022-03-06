@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+	<!-- nav bar -->
+     <nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo">Amazon</label>
+		<ul>
+			<li><a class="active" href="#">Iphone</a></li>
+			<li><a href="./samsung.html">Samsung</a></li>
+			<li><a href="./vivo.html">Vivo</a></li>
+			<li><a href="./mi.html">Mi</a></li>
+			<li><a href="">Contect Us</a></li>
+		</ul>
+	</nav>
+
+
+
+	<div class="container">
+		<div class="card">
+			<div class="img">
+			<img onclick="show()" src="./iphone11/iphone11.jpg"/>
+            </div>
+            <div class="content">
+            	<p>Sponsored&nbsp;<i class="fa-solid fa-circle-info"></i></p>
+            	<h1 onclick="show()" >Apple iPhone 11 (64GB) - Black</h1>
+            	<span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></span>
+            	<h1>₹49,900 </h1>
+            	<h3>Flat INR 4000 Off on ICICI_Credit_Cards</h3>
+            	<h3>Get it by Today, March 6 FREE Delivery by Amazon</h3>
+            	<button onclick="show()">Buy Now</button>
+
+
+
+            </div>
+		</div>
+
+		<div class="card">
+			<div class="img">
+			<img onclick="show1()" src="./iphone13pro/iphone13pro.jpg"/>
+            </div>
+            <div class="content">
+            	<p>Sponsored&nbsp;<i class="fa-solid fa-circle-info"></i></p>
+            	<h1 onclick="show1()">Apple iPhone 13 Pro Max (256GB) - Sierra Blue</h1>
+            	<span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></span>
+            	<h1>₹1,39,900  </h1>
+            	<h3>Flat INR 4000 Off on ICICI_Credit_Cards</h3>
+            	<h3>Get it by Today, March 6 FREE Delivery by Amazon</h3>
+            	<button onclick="show1()">Buy Now</button>
+
+
+
+            </div>
+		</div>
+
+
+<div class="card">
+			<div class="img">
+			<img onclick="show2()" src="./iphone12/iphone12.jpg"/>
+            </div>
+            <div class="content">
+            	<p>Sponsored&nbsp;<i class="fa-solid fa-circle-info"></i></p>
+            	<h1 onclick="show2()">Apple iPhone 12 (128GB) - Blue</h1>
+            	<span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></span>
+            	<h1>₹60,990.00 </h1>
+            	<h3>Flat INR 4000 Off on ICICI_Credit_Cards</h3>
+            	<h3>Get it by Today, March 6 FREE Delivery by Amazon</h3>
+            	<button onclick="show2()">Buy Now</button>
+
+
+
+            </div>
+		</div>
+
+     
+
+		<div class="details d-none">
+			<div class="img-details">
+				<img id="img-detail" src="./iphone11/iphone11.jpg">
+			</div>
+			<div class="content-details">
+				<span onclick="hide()"><i class="fa-solid fa-xmark"></i></span>
+				<h2 id="h2">Apple iPhone 11 (64GB) -
+				<br> Black</h2>
+				<h6 id="h6">Size name:64GB</h6>
+				<h6 id="h61">Colour:Black</h6>
+				<h6 id="h62">Pattern name:iPhone 11</h6>
+				<button>Add to cart</button>
+				<div class="slide">
+				<img onclick="slide()" src="./iphone11/iphone11.jpg">
+				<img onclick="slide1()" src="./iphone11/iphone11a.jpg">
+				<img onclick="slide2()" src="./iphone11/iphone11b.jpg">
+				<img onclick="slide3()" src="./iphone11/iphone11c.jpg">
+				</div>
+			</div>
+		</div>
+
+		
+	</div>
+<script src="./index.js"></script>
+</body>
+</html>
