@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 120vh;
+    background-image: linear-gradient(to top, #e5f1f2, #accbd2, #77a5b7, #437e9e, #005986);
+}
+nav{
+    height: 60px;
+    background-color: #005986;
+}
+input{
+    width: 30%;
+    padding: 10px;
+    margin-left: 35%;
+    background-color: #337a9e;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+button{
+    position: relative;
+    right: 42px;
+    padding: 7px 10px 7px 10px;   
+    border-radius: 11px; 
+    border: none;
+    font-size: 17px;
+    background-color: #337a9e;
+    color: white;
+}
+.card{
+width: 50%;
+height: 40vh;
+margin-top: 15px;
+border-radius: 10px;
+margin: auto;
+background-image: linear-gradient(to top, #2f8fc1, #3a9fcd, #47afd8, #55c0e3, #65d0ee);
+}
+.card h2{
+    background-color: #305f6b;
+    color: white;
+    padding: 5px 0 5px 15px;
+    border-radius: 10px 10px 0 0;
+   
+}
+.img{
+    float: right;
+}
+.img img{
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    margin-top: 30px;
+
+}
+.content{
+    float: left;
+}
+.content h1{
+    color: white;
+    font-size: 100px;
+    margin-left: 15px;
+}
+.content h4{
+    color: rgb(142, 224, 18);
+    margin-left: 15px;
+    font-size: 25px;
+}
+.content span{
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+
+   /* card2 */
+
+   .card2{
+       background-color: white;
+       width: 50%;
+       margin: auto;
+       border-radius: 10px;
+       margin-top: 10px;
+   } table{
+       width: 100%;
+   }
+   td:first-child{
+       font-size: 17px;
+       padding: 10px;
+       border-bottom: 1px solid lightgray;
+   }
+   td:last-child{
+       text-align: center;
+       font-size: 17px;
+       border-bottom: 1px solid lightgray;
+       font-weight: bold;
+   }
+   .card2 h1{
+       margin-left: 15px;
+   }
+   .card2 h2{
+       margin-left: 15px;
+   }
+    p{
+       margin-left: 15px;
+   }
+
+
+   @media(max-width:850px) {
+    .card{
+    width: 80%;
+    height: 45vh;
+    }
+ .card2{
+     width: 80%;
+ }
+}
+@media(max-width:550px) {
+    .card{
+    width: 95%;
+    height: 45vh;
+    }
+    .card2{
+        width: 95%;
+    }
+    .content h1{
+        font-size: 60px;
+    }
+    input{
+        width: 70%;
+        margin-left: 10%;
+    }
+}

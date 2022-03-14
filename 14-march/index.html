@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>WeatherApp</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body> 
+    <nav>
+        <input type="text" id="txt_input" placeholder="Search City">
+        <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </nav>
+    <br>
+    <div class="card">
+        <h2 id="location"></h2>
+        <div class="content">
+            <h1 id="temp_container"></h1>
+            <h4 id="weather_container"></h4>
+            <span id="max_temp"></span><span id="min_temp"></span>
+        </div>
+        <div class="img">
+            <img id="img" src="" alt="">
+        </div>
+    </div>
+
+    <div class="card2">
+        <h2 id="location2">siyana skdf jsfdsdj</h2>
+        <h1 id="temp">temp</h1>
+        <p>Feel Like</p>
+        <table>
+            <tbody>
+                <tr>
+                    <td><i class="fa-solid fa-temperature-high"></i> High</td>
+                    <td id="high">29</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-temperature-high"></i> Low</td>
+                    <td id="low">52</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-wind"></i> Wind</td>
+                    <td id="wind">52</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-regular fa-tire-pressure-warning"></i>> Pressure</td>
+                    <td id="pressure">25</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-regular fa-eye-slash"></i> Visibility</td>
+                    <td id="visibility">25</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
